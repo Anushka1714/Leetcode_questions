@@ -10,31 +10,21 @@
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
-        // ListNode temp = head;
-        // int cnt = 0;
-        // while(temp != null){
-        //     cnt++;
-        //     temp =temp.next;
-        // }
-        // int midNode = (cnt/2) + 1;
-        // temp = head;
-        // while(temp != null){
-        //     midNode--;
-        //     if(midNode == 0){
-        //         break;
-        //     }
-        //     temp = temp.next;
-        // }
-        
-        // return temp;
-
-//slow and fast pointer
-        ListNode slow = head;
-        ListNode fast = head;
-        while(fast != null && fast.next != null){
-            slow = slow.next;
-            fast = fast.next.next;
+        ListNode temp = head;
+        int cnt = 0;
+        while(temp != null){
+            cnt++;
+            temp =temp.next;
         }
-        return slow;
+        int midNode = (cnt/2) + 1;
+        temp = head;
+        while(temp != null){
+            midNode--;
+            if(midNode == 0){
+                break;
+            }
+            temp = temp.next;
+        }
+        return temp;
     }
 }
