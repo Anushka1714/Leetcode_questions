@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Anushka1714/Leetcode_questions/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Anushka1714/Leetcode_questions/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -35,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Anushka1714/Leetcode_questions/tree/master/0169-majority-element) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Anushka1714/Leetcode_questions/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
