@@ -10,40 +10,18 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-
-    //using stack
-        if(head == null || head.next == null){
+        if  (head == null || head.next == null){
             return head;
         }
-        Stack<Integer>st = new Stack<>();
         ListNode temp = head;
+        ListNode prev = null;
 
         while(temp != null){
-            st.push(temp.val);
-            temp = temp.next;
-        } 
-        temp = head;
-        while(temp != null){
-            temp.val = st.peek();
-            st.pop();
-            temp = temp.next;
+            ListNode front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
         }
-        return head;
-
-
-    //reversing the links
-        // if  (head == null || head.next == null){
-        //     return head;
-        // }
-        // ListNode temp = head;
-        // ListNode prev = null;
-
-        // while(temp != null){
-        //     ListNode front = temp.next;
-        //     temp.next = prev;
-        //     prev = temp;
-        //     temp = front;
-        // }
-        // return prev;
+        return prev;
     }
 }
