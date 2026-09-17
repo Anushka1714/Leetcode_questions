@@ -44,21 +44,13 @@ public class Solution {
 
             if(slow == fast){
                 // return findLength(slow,fast);
-                 int len = findLength(slow,fast);
+                 slow = head;
+                 while(slow != fast){
+                    slow = slow.next;
+                    fast = fast.next;
+                 }
 
-                 ListNode first = head;
-                 ListNode second = head;
-
-                 while(len-- > 0){
-                     second = second.next;
-                }
-
-                 while(first != second){
-                     first = first.next;
-                     second = second.next;
-                }
-
-    return first;
+    return slow;
             }
         }
         return null;
