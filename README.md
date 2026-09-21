@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/Anushka1714/Leetcode_questions/tree/master/0119-pascals-triangle-ii) |
 | [0169-majority-element](https://github.com/Anushka1714/Leetcode_questions/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/Anushka1714/Leetcode_questions/tree/master/0283-move-zeroes) |
+| [2460-apply-operations-to-an-array](https://github.com/Anushka1714/Leetcode_questions/tree/master/2460-apply-operations-to-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Anushka1714/Leetcode_questions/tree/master/0283-move-zeroes) |
 | [0876-middle-of-the-linked-list](https://github.com/Anushka1714/Leetcode_questions/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Anushka1714/Leetcode_questions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2460-apply-operations-to-an-array](https://github.com/Anushka1714/Leetcode_questions/tree/master/2460-apply-operations-to-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -82,4 +84,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/Anushka1714/Leetcode_questions/tree/master/0119-pascals-triangle-ii) |
+## Simulation
+|  |
+| ------- |
+| [2460-apply-operations-to-an-array](https://github.com/Anushka1714/Leetcode_questions/tree/master/2460-apply-operations-to-an-array) |
 <!---LeetCode Topics End-->
